@@ -1,15 +1,7 @@
-$mainBlue: #2f5572;
-body {
-	color: $mainBlue;
-	padding: 25px;
-	margin: 10px;
-	columns: 300px 2;
-}
+/* Note : import statment needs to be at the top of the CSS file */
+@import "normalize.css"; /* This is an npm package installed under node modules*/
+@import "base/_global.css";
+@import "modules/_large-hero.css";
 
 
-.box { 
-	a {
-		display: block;
-		padding: 10px;
-	}
-}
+
