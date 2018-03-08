@@ -1,7 +1,6 @@
 /* Note : import statment needs to be at the top of the CSS file */
 @import "normalize.css"; /* This is an npm package installed under node modules*/
 @import "base/_global.css";
+@import "base/_variables.css";
 @import "modules/_large-hero.css";
-
-
-
+@import "modules/_btn.css";

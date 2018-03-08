@@ -313,6 +313,17 @@ img {
 		margin-left: auto;
 		margin-right: auto;
 	}
-
-
-
+.btn {
+  background-color: #2f5572;
+  color: #FFF;
+  text-decoration: none; /* This is to remove the underlin in the hyperlink */
+  padding: 0.75rem 1.25rem; /* First value : Vertical Padding(for Top & Bottom), Second Value : Horizontal Padding (Left & Right) */
+  display: inline-block;
+}
+.btn__orange { /* Orance color will be applied on top of above btn style*/
+    background-color: #d59541;
+  }
+.btn__large { /* This style will be used for large buttons */
+    font-size:1.25rem;
+    padding: 1.1rem 1.9rem;
+  }
