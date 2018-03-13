@@ -1,5 +1,5 @@
 require('./gulp/tasks/watch');
-require('./gulp/tasks/styles.js');
+require('./gulp/tasks/styles.js'); //.js is optional while importing a js file
 
 
 /*var gulp = require('gulp') ,
